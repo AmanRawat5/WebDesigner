@@ -1,0 +1,53 @@
+@media(max-width:768px){
+    html{
+        font-size:50%;
+    }
+    .home .banner{
+        font-size:4rem;
+    }
+    .home .slogan{
+        font-size: 1.7rem;
+    }
+    .about .row{
+        flex-flow: column-reverse;
+        padding: 0.3rem;
+    }
+    .about .row .image img{
+        width: 100vw;
+    }
+    .services .row{
+        flex-flow: column-reverse;
+    }
+    .services .row:nth-child(even){
+        flex-flow: column;
+    }
+    .services .row .image img{
+        width:100vw;
+    }
+    .services .row .content{
+        padding: 0;
+    }
+    .contact .row{
+        flex-flow: column;
+    }
+    .contact .row .image img{
+        width:100vw;
+    }
+    .contact .row .form-container{
+        width: 100vw;
+        padding: 0 1.5rem;
+    }
+
+}
+
+@media(max-width:550px){
+    .footer{
+        flex-flow: column;
+    }
+    .footer h1{
+        text-align: center;
+    }
+    .footer .icons{
+        padding: 2rem 0;
+    }
+}
